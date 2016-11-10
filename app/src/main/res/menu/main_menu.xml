@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/id_icon_contact"
+        android:title="contact_us"
+        android:orderInCategory="5"
+        android:visible="true"
+        android:icon="@drawable/call"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/id_icon_edit"
+        android:title="Edit"
+        android:orderInCategory="3"
+        android:visible="true"
+        android:icon="@drawable/edit"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/id_icon_mail"
+        android:title="mail_us"
+        android:orderInCategory="4"
+        android:visible="true"
+        android:icon="@drawable/mail"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/id_icon_share"
+        android:title="share"
+        android:orderInCategory="1"
+        android:visible="true"
+        android:icon="@drawable/share"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/id_icon_upload"
+        android:title="upload"
+        android:orderInCategory="2"
+        android:visible="true"
+        android:icon="@drawable/upload"
+        app:showAsAction="always"
+
+        />
+
+
+
+
+
+
+
+
+
+</menu>
